@@ -1,0 +1,11 @@
+- GUI mit Visualisierung von
+    - Preisen
+    - Trades
+    - Kapitalhistorie
+    - alle Subaccounts
+    - logfile
+    - entweder browser oder python-eigene GUI 
+
+- Webhooks von Tradingview empfangen
+
+- eigene python-scripte laufen lassen
