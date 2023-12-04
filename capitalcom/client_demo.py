@@ -453,7 +453,7 @@ class Client():
     def historical_prices(self, 
                           epic, 
                           resolution: ResolutionType = ResolutionType.MINUTE,
-                          max:int = 10):
+                          max:int = 100):
         r = self._get_with_params_and_headers(
             CapitalComConstants.PRICES_INFORMATION_ENDPOINT + '/' + epic,
             resolution=resolution.value,
