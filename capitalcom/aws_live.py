@@ -2,8 +2,8 @@ import http.client
 import json
 import math
 ## Keys and Destinations
-#conn = http.client.HTTPSConnection("demo-api-capital.backend-capital.com")
-conn = http.client.HTTPSConnection("api-capital.backend-capital.com")
+conn = http.client.HTTPSConnection("demo-api-capital.backend-capital.com")
+#conn = http.client.HTTPSConnection("api-capital.backend-capital.com")
 payload = json.dumps({
   "identifier": "meinardgimm@gmail.com",
   "password": "8nnn45n#U"
@@ -15,7 +15,7 @@ headers = {
 Position_ID = []
 Closed_IDs = []
 
-def lambda_handler(event, context):
+def lambda_handler(event):
   ###############################
   # hier ein try/catch einbauen
   POSITION_headers, Balance, data, POSITION_headers2, AccID = OPEN_SESSION(payload,headers,event) #Open session at broker
@@ -26,7 +26,7 @@ def lambda_handler(event, context):
   TickerInfo = TickerInfo.read()
   TickerInfo = json.loads(TickerInfo)
   TickerHIGH = TickerInfo["snapshot"]["high"]
-  TickerLOW = TickerInfo["snapshot"]["high"]
+  TickerLOW = TickerInfo["snapshot"]["low"]
   #return data, Balance
   
   if event['marketside'] == 'BUY' or event['marketside'] == 'SELL':

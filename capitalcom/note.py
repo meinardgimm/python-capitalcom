@@ -1,5 +1,4 @@
 from config import login, password, API_KEY
-
 from client_demo import *
 
 cl = Client(
