@@ -449,6 +449,12 @@ class Client():
         )
         return json.dumps(r.json(), indent=4)
     
+    def watchlist_stockwatch(self): 
+        r = self._get_with_headers(
+            CapitalComConstants.WATCHLISTS_ENDPOINT + '/2496244',
+        )
+        return json.dumps(r.json(), indent=4)
+    
     
     def historical_prices(self, 
                           epic, 
