@@ -126,7 +126,7 @@ def OPEN_SESSION(payload,headers,event):
   return POSITION_headers, Balance, data, POSITION_headers2, AccID
 #####################
 def SWITCH_TRADING_ACCOUNT(AccData, POSITION_headers,event):
-  print(AccData)
+  #print(AccData)
   #Find ID of desired trading account (part of webhook)
   AccID = []
   AccData = json.loads(AccData)
