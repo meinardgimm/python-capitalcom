@@ -1,3 +1,4 @@
+from config import login, password, API_KEY
 import http.client
 import json
 import math
@@ -5,11 +6,11 @@ import math
 conn = http.client.HTTPSConnection("demo-api-capital.backend-capital.com")
 #conn = http.client.HTTPSConnection("api-capital.backend-capital.com")
 payload = json.dumps({
-  "identifier": "meinardgimm@gmail.com",
-  "password": "8nnn45n#U"
+  "identifier": login,
+  "password": password
 })
 headers = {
-  'X-CAP-API-KEY': 'hIkIH9Ia2wM5uetC',
+  'X-CAP-API-KEY': API_KEY,
   'Content-Type': 'application/json'
 }
 Position_ID = []
@@ -25,8 +26,8 @@ def lambda_handler(event):
   TickerInfo = conn.getresponse()
   TickerInfo = TickerInfo.read()
   TickerInfo = json.loads(TickerInfo)
-  TickerHIGH = TickerInfo["snapshot"]["high"]
-  TickerLOW = TickerInfo["snapshot"]["low"]
+  TickerHIGH = TickerInfo["snapshot"]["offer"]
+  TickerLOW = TickerInfo["snapshot"]["bid"]
   #return data, Balance
   
   if event['marketside'] == 'BUY' or event['marketside'] == 'SELL':
