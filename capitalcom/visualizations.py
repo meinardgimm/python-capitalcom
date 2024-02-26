@@ -1,4 +1,5 @@
 import tkinter as tk
+import csv
 
 class Account:
     def __init__(self, name, balance):
@@ -36,13 +37,10 @@ class AccountVisualizer:
     def run(self):
         self.root.mainloop()
 
-## Sample account data
-#accounts = [
-#    Account("Account 1", 1000, 3),
-#    Account("Account 2", 2000, 2),
-#    Account("Account 3", 1500, 1)
-#]
-#
-## Create and run the account visualizer
-#visualizer = AccountVisualizer(accounts)
-#visualizer.run()
+def write_to_csv(action, ticker, account):
+    filename = 'actionlogfile.csv'
+    with open(filename, 'a', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Account Name', 'Action', 'Ticker'])
+        writer.writerow([account, action, ticker])
+

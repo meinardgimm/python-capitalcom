@@ -1,0 +1,30 @@
+Account Name,Action,Ticker
+Demo_2,SELL,ENRUS
+Account Name,Action,Ticker
+Demo_1,HOLD,ENRUS
+Account Name,Action,Ticker
+Demo_2,SELL,ENRUS
+Account Name,Action,Ticker
+Demo_1,HOLD,AIRFR
+Account Name,Action,Ticker
+Demo_2,BUY,AIRFR
+Account Name,Action,Ticker
+Demo_1,HOLD,CAT
+Account Name,Action,Ticker
+Demo_2,BUY,CAT
+Account Name,Action,Ticker
+Demo_1,HOLD,ARKK
+Account Name,Action,Ticker
+Demo_2,BUY,ARKK
+Account Name,Action,Ticker
+Demo_1,HOLD,TEAM
+Account Name,Action,Ticker
+Demo_2,BUY,TEAM
+Account Name,Action,Ticker
+Demo_1,HOLD,ADSGN
+Account Name,Action,Ticker
+Demo_2,BUY,ADSGN
+Account Name,Action,Ticker
+Demo_1,HOLD,CTLT
+Account Name,Action,Ticker
+Demo_2,BUY,CTLT
