@@ -65,5 +65,6 @@ while True:
         if action == "SELL":
             webhook(epic,action,bid_prices[-1],account)
 
+        # prints out actions even if unsuccessful
         print(action)
         print(ticker)
