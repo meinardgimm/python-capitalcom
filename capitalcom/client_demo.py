@@ -297,7 +297,8 @@ class Client():
         return json.dumps(r.json(), indent=4)
 
     def place_the_position(self, 
-                            direction: DirectionType, 
+                            #direction: DirectionType, 
+                            direction: str, 
                             epic: str, 
                             size: float, 
                             gsl: bool = False, 
@@ -311,7 +312,8 @@ class Client():
 
         r = self._post(
             CapitalComConstants.POSITIONS_ENDPOINT,
-            direction=direction.value,
+            #direction=direction.value,
+            direction=direction,
             epic=epic,
             size=size,
             guaranteedStop=gsl,
