@@ -3,7 +3,7 @@ from config import login, password, API_KEY
 from client_demo import *
 from aws_live import *
 
-def webhook(ticker,marketside,prices,account):
+def webhook(ticker,marketside,prices,account, positions_dict):
   event = {
     "open": prices['open'][-1], #Jeweils der letzte / aktuellste Preis ist relevant
     "high": prices['high'][-1],
@@ -15,10 +15,10 @@ def webhook(ticker,marketside,prices,account):
     "marketside": marketside,
     "Account": account
   }
-  lambda_handler(event)
-  calc_parameters(event)
+  #lambda_handler(event)
+  calc_parameters(event, positions_dict)
 
-def calc_parameters(event):
+def calc_parameters(event, positions_dict):
   #Clienten und Abfrage aktualisieren | nicht sicher ob notwendig :/
   cl = Client( 
     login,
@@ -39,10 +39,15 @@ def calc_parameters(event):
   Positionsgrosse = 0.35 #Größe der Position bezogen auf verfügbares Kapital in Prozent
   size=round(AvailableMoney/event['high']*Hebel*Positionsgrosse,2) 
   if event['marketside'] == "BUY":
-      stop_level=event['low']*0.96
+    stop_level=event['low']*0.96
   if event['marketside'] == "SELL":
-      stop_level=event['high']*1.04
+    stop_level=event['high']*1.04
       
   direction = event['marketside']
   epic = event['ticker']
-  cl.place_the_position(direction, epic, size, stop_level)
+  if event['marketside'] == 'BUY' or event['marketside'] == 'SELL': 
+    cl.place_the_position(direction, epic, size, stop_level)
+  if event['marketside'] == 'CLOSE':
+    for index in range(0, len(positions_dict[2])):
+      if positions_dict[0][index] == epic:
+        cl.close_position(positions_dict[2][index])
