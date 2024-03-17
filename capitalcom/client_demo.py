@@ -375,11 +375,13 @@ class Client():
 
 
     def place_the_order(self, 
-                            direction: DirectionType, 
+                            #direction: DirectionType,
+                            direction: str, 
                             epic: str, 
                             size: float, 
                             level: float,
-                            type: OrderType,
+                            #type: OrderType,
+                            type: str,
                             gsl: bool = False, 
                             tsl: bool = False, 
                             good_till_date: str = None,
@@ -392,11 +394,13 @@ class Client():
 
         r = self._post(
             CapitalComConstants.ORDERS_ENDPOINT,
-            direction=direction.value,
+            #direction=direction.value,
+            direction=direction,
             epic=epic,
             size=size,
             level=level,
-            type=type.value,
+            #type=type.value,
+            type=type,
             goodTillDate=good_till_date,
             guaranteedStop=gsl,
             trailingStop=tsl,

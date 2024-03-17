@@ -55,9 +55,9 @@ class Scripts():
         slope_period1 = 1
         slope_period2 = 3
         slope_period3 = 4
-        slope1 = (ma - ma(-slope_period1)) / slope_period1
-        slope2 = (ma - ma(-slope_period2)) / slope_period2
-        slope3 = (ma - ma(-slope_period3)) / slope_period3
+        slope1 = (ma[0] - ma[-slope_period1]) / slope_period1
+        slope2 = (ma[0] - ma[-slope_period2]) / slope_period2
+        slope3 = (ma[0] - ma[-slope_period3]) / slope_period3
         if slope1 < 0 and open_positions == 'BUY':
             return 'CLOSE'
         elif slope1 > 0 and open_positions == 'SELL':
@@ -68,10 +68,13 @@ class Scripts():
             return 'SELL'
 
 def pine_wma(source, length):
+# so far just gives out one single value. Need to make it a list.
+    wma = []
     norm = 0.0
     total_sum = 0.0
     for i in range(length):
         weight = (length - i) * length
         norm += weight
         total_sum += source[i] * weight
-    return total_sum / norm
+        wma.append(total_sum / norm)
+    return wma

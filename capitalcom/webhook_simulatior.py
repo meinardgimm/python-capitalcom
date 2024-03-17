@@ -46,8 +46,17 @@ def calc_parameters(event, positions_dict):
   direction = event['marketside']
   epic = event['ticker']
   if event['marketside'] == 'BUY' or event['marketside'] == 'SELL': 
-    cl.place_the_position(direction, epic, size, stop_level)
+    # remains to be fixed! ALso the closing Befehl
+    cl.place_the_position(direction, epic, round(size), round(stop_level,4))
+    cl.place_the_order(direction, epic, round(size),level =event['high'],  type = "LIMIT", stop_level = round(stop_level,4))
   if event['marketside'] == 'CLOSE':
     for index in range(0, len(positions_dict[2])):
       if positions_dict[0][index] == epic:
         cl.close_position(positions_dict[2][index])
+
+
+#url = 'https://demo-api-capital.backend-capital.com/api/v1/positions'
+#self._get_body_parameters(**kwargs)
+#{'direction': 'SELL', 'epic': 'XRPUSD', 'size': 23676.79, 'guaranteedStop': 0.6471608, 
+# 'trailingStop': False, 'stopLevel': None, 'stopDistance': None, 'stopAmount': None, 
+# 'profitLevel': None, 'profitDistance': None, 'profitAmount': None}
