@@ -46,13 +46,27 @@ def calc_parameters(event, positions_dict):
   direction = event['marketside']
   epic = event['ticker']
   if event['marketside'] == 'BUY' or event['marketside'] == 'SELL': 
-    # remains to be fixed! ALso the closing Befehl
-    cl.place_the_position(direction, epic, round(size), stop_level = round(stop_level,4))
+    # try and catch this mfucker
+    deal_reference = cl.place_the_position(direction, epic, round(size), stop_level = round(stop_level,4))
+    deal_reference = json.loads(deal_reference)
+    deal_success = cl.position_order_confirmation(deal_reference["dealReference"])
+    deal_success = json.loads(deal_success)
+    if 'dealStatus' in deal_success.keys():
+      return deal_success['dealStatus'] 
+    else:
+      return 'not successful'
     #cl.place_the_order(direction, epic, round(size),level =event['high'],  type = "LIMIT", stop_level = round(stop_level,4))
   if event['marketside'] == 'CLOSE':
     for index in range(0, len(positions_dict[2])):
       if positions_dict[0][index] == epic:
-        cl.close_position(positions_dict[2][index])
+        deal_reference = cl.close_position(positions_dict[2][index])
+        deal_reference = json.loads(deal_reference)
+        deal_success = cl.position_order_confirmation(deal_reference["dealReference"])
+        deal_success = json.loads(deal_success)
+        if 'dealStatus' in deal_success.keys():
+          return deal_success['dealStatus'] 
+        else:
+          return 'not successful'
 
 
 #url = 'https://demo-api-capital.backend-capital.com/api/v1/positions'
