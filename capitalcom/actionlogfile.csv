@@ -1,274 +1,1473 @@
+
 Account Name,Action,Ticker
-Demo_2,SELL,ENRUS
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_2,SELL,ENRUS
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_1,HOLD,AIRFR
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_2,BUY,AIRFR
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_1,HOLD,CAT
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_2,BUY,CAT
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_1,HOLD,ARKK
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_2,BUY,ARKK
+Demo_1,,PYPL
 Account Name,Action,Ticker
-Demo_1,HOLD,TEAM
+Demo_1,,ENRUS
 Account Name,Action,Ticker
-Demo_2,BUY,TEAM
+Demo_1,,AIRFR
 Account Name,Action,Ticker
-Demo_1,HOLD,ADSGN
+Demo_1,,CAT
 Account Name,Action,Ticker
-Demo_2,BUY,ADSGN
+Demo_1,,BYND
 Account Name,Action,Ticker
-Demo_1,HOLD,CTLT
+Demo_1,,ARKK
 Account Name,Action,Ticker
-Demo_2,BUY,CTLT
+Demo_1,,TEAM
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,ADSGN
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,CTLT
 Account Name,Action,Ticker
-Demo_2,SELL,ENRUS
+Demo_1,,GOOGL
 Account Name,Action,Ticker
-Demo_1,HOLD,CAT
+Demo_1,,V
 Account Name,Action,Ticker
-Demo_2,BUY,CAT
+Demo_1,,NVDA
 Account Name,Action,Ticker
-Demo_1,HOLD,ARKK
+Demo_1,,AAPL
 Account Name,Action,Ticker
-Demo_2,BUY,ARKK
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_1,HOLD,TEAM
+Demo_1,,PYPL
 Account Name,Action,Ticker
-Demo_2,BUY,TEAM
+Demo_1,,ENRUS
 Account Name,Action,Ticker
-Demo_1,HOLD,CTLT
+Demo_1,,AIRFR
 Account Name,Action,Ticker
-Demo_2,BUY,CTLT
+Demo_1,,CAT
 Account Name,Action,Ticker
-Demo_1,HOLD,GOOGL
+Demo_1,,BYND
 Account Name,Action,Ticker
-Demo_2,SELL,GOOGL
+Demo_1,,ARKK
 Account Name,Action,Ticker
-Demo_1,HOLD,V
+Demo_1,,TEAM
 Account Name,Action,Ticker
-Demo_2,BUY,V
+Demo_1,,ADSGN
 Account Name,Action,Ticker
-Demo_1,HOLD,NVDA
+Demo_1,,CTLT
 Account Name,Action,Ticker
-Demo_2,BUY,NVDA
+Demo_1,,GOOGL
 Account Name,Action,Ticker
-Demo_1,HOLD,AAPL
+Demo_1,,V
 Account Name,Action,Ticker
-Demo_2,SELL,AAPL
+Demo_1,,NVDA
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,AAPL
 Account Name,Action,Ticker
-Demo_2,SELL,ENRUS
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_1,HOLD,CAT
+Demo_1,,PYPL
 Account Name,Action,Ticker
-Demo_2,BUY,CAT
+Demo_1,,ENRUS
 Account Name,Action,Ticker
-Demo_1,HOLD,ARKK
+Demo_1,,AIRFR
 Account Name,Action,Ticker
-Demo_2,BUY,ARKK
+Demo_1,,CAT
 Account Name,Action,Ticker
-Demo_1,HOLD,TEAM
+Demo_1,,BYND
 Account Name,Action,Ticker
-Demo_2,BUY,TEAM
+Demo_1,,ARKK
 Account Name,Action,Ticker
-Demo_1,HOLD,CTLT
+Demo_1,,TEAM
 Account Name,Action,Ticker
-Demo_2,BUY,CTLT
+Demo_1,,ADSGN
 Account Name,Action,Ticker
-Demo_1,HOLD,GOOGL
+Demo_1,,CTLT
 Account Name,Action,Ticker
-Demo_2,SELL,GOOGL
+Demo_1,,GOOGL
 Account Name,Action,Ticker
-Demo_1,HOLD,V
+Demo_1,,V
 Account Name,Action,Ticker
-Demo_2,BUY,V
+Demo_1,,NVDA
 Account Name,Action,Ticker
-Demo_1,HOLD,NVDA
+Demo_1,,AAPL
 Account Name,Action,Ticker
-Demo_2,BUY,NVDA
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_1,HOLD,AAPL
+Demo_1,,PYPL
 Account Name,Action,Ticker
-Demo_2,SELL,AAPL
+Demo_1,,ENRUS
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,AIRFR
 Account Name,Action,Ticker
-Demo_2,SELL,ENRUS
+Demo_1,,CAT
 Account Name,Action,Ticker
-Demo_1,HOLD,CAT
+Demo_1,,BYND
 Account Name,Action,Ticker
-Demo_2,BUY,CAT
+Demo_1,,ARKK
 Account Name,Action,Ticker
-Demo_1,HOLD,ARKK
+Demo_1,,TEAM
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,ADSGN
 Account Name,Action,Ticker
-Demo_2,SELL,ENRUS
+Demo_1,,CTLT
 Account Name,Action,Ticker
-Demo_1,HOLD,CAT
+Demo_1,,GOOGL
 Account Name,Action,Ticker
-Demo_2,BUY,CAT
+Demo_1,,V
 Account Name,Action,Ticker
-Demo_1,HOLD,ARKK
+Demo_1,,NVDA
 Account Name,Action,Ticker
-Demo_2,BUY,ARKK
+Demo_1,,AAPL
 Account Name,Action,Ticker
-Demo_1,HOLD,TEAM
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_2,BUY,TEAM
+Demo_1,,PYPL
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,ENRUS
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,AIRFR
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,CAT
 Account Name,Action,Ticker
-Demo_2,BUY,ENRUS
+Demo_1,,BYND
 Account Name,Action,Ticker
-Demo_1,HOLD,CAT
+Demo_1,,ARKK
 Account Name,Action,Ticker
-Demo_2,BUY,CAT
+Demo_1,,TEAM
 Account Name,Action,Ticker
-Demo_1,HOLD,ARKK
+Demo_1,,ADSGN
 Account Name,Action,Ticker
-Demo_2,BUY,ARKK
+Demo_1,,CTLT
 Account Name,Action,Ticker
-Demo_1,HOLD,TEAM
+Demo_1,,GOOGL
 Account Name,Action,Ticker
-Demo_2,BUY,TEAM
+Demo_1,,V
 Account Name,Action,Ticker
-Demo_1,HOLD,CTLT
+Demo_1,,NVDA
 Account Name,Action,Ticker
-Demo_2,BUY,CTLT
+Demo_1,,AAPL
 Account Name,Action,Ticker
-Demo_1,HOLD,GOOGL
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_2,SELL,GOOGL
+Demo_1,,PYPL
 Account Name,Action,Ticker
-Demo_1,HOLD,V
+Demo_1,,ENRUS
 Account Name,Action,Ticker
-Demo_2,BUY,V
+Demo_1,,AIRFR
 Account Name,Action,Ticker
-Demo_1,HOLD,NVDA
+Demo_1,,CAT
 Account Name,Action,Ticker
-Demo_2,SELL,NVDA
+Demo_1,,BYND
 Account Name,Action,Ticker
-Demo_1,HOLD,AAPL
+Demo_1,,ARKK
 Account Name,Action,Ticker
-Demo_2,SELL,AAPL
+Demo_1,,TEAM
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,ADSGN
 Account Name,Action,Ticker
-Demo_1,HOLD,PYPL
+Demo_1,,CTLT
 Account Name,Action,Ticker
-Demo_1,HOLD,ENRUS
+Demo_1,,GOOGL
 Account Name,Action,Ticker
-Demo_1,HOLD,AIRFR
+Demo_1,,V
 Account Name,Action,Ticker
-Demo_1,HOLD,CAT
+Demo_1,,NVDA
 Account Name,Action,Ticker
-Demo_1,HOLD,BYND
+Demo_1,,AAPL
 Account Name,Action,Ticker
-Demo_1,HOLD,ARKK
+Demo_1,,TSLA
 Account Name,Action,Ticker
-Demo_1,HOLD,TEAM
+Demo_1,,PYPL
 Account Name,Action,Ticker
-Demo_1,HOLD,ADSGN
+Demo_1,,ENRUS
 Account Name,Action,Ticker
-Demo_1,HOLD,CTLT
+Demo_1,,AIRFR
 Account Name,Action,Ticker
-Demo_1,HOLD,GOOGL
+Demo_1,,CAT
 Account Name,Action,Ticker
-Demo_1,HOLD,V
+Demo_1,,BYND
 Account Name,Action,Ticker
-Demo_1,HOLD,NVDA
+Demo_1,,ARKK
 Account Name,Action,Ticker
-Demo_1,HOLD,AAPL
+Demo_1,,TEAM
 Account Name,Action,Ticker
-Demo_1,BUY,PYPL
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,,PYPL
+Account Name,Action,Ticker
+Demo_1,,ENRUS
+Account Name,Action,Ticker
+Demo_1,,AIRFR
+Account Name,Action,Ticker
+Demo_1,,CAT
+Account Name,Action,Ticker
+Demo_1,,BYND
+Account Name,Action,Ticker
+Demo_1,,ARKK
+Account Name,Action,Ticker
+Demo_1,,TEAM
+Account Name,Action,Ticker
+Demo_1,,ADSGN
+Account Name,Action,Ticker
+Demo_1,,CTLT
+Account Name,Action,Ticker
+Demo_1,,GOOGL
+Account Name,Action,Ticker
+Demo_1,,V
+Account Name,Action,Ticker
+Demo_1,,NVDA
+Account Name,Action,Ticker
+Demo_1,,AAPL
+Account Name,Action,Ticker
+Demo_1,,TSLA
+Account Name,Action,Ticker
+Demo_1,SELL,TSLA
+Account Name,Action,Ticker
+Demo_1,Nix machen,TSLA
+Account Name,Action,Ticker
+Demo_1,SELL,PYPL
+Account Name,Action,Ticker
+Demo_1,Nix machen,TSLA
+Account Name,Action,Ticker
+Demo_1,Nix machen,PYPL
 Account Name,Action,Ticker
 Demo_1,BUY,ENRUS
 Account Name,Action,Ticker
-Demo_1,SELL,AIRFR
+Demo_1,Nix machen,TSLA
 Account Name,Action,Ticker
-Demo_1,SELL,CAT
-Account Name,Action,Ticker
-Demo_1,BUY,BYND
-Account Name,Action,Ticker
-Demo_1,SELL,ARKK
-Account Name,Action,Ticker
-Demo_1,SELL,TEAM
-Account Name,Action,Ticker
-Demo_1,BUY,ADSGN
-Account Name,Action,Ticker
-Demo_1,BUY,CTLT
-Account Name,Action,Ticker
-Demo_1,BUY,GOOGL
-Account Name,Action,Ticker
-Demo_1,BUY,V
-Account Name,Action,Ticker
-Demo_1,SELL,NVDA
-Account Name,Action,Ticker
-Demo_1,BUY,AAPL
-Account Name,Action,Ticker
-Demo_1,BUY,PYPL
+Demo_1,Nix machen,PYPL
 Account Name,Action,Ticker
 Demo_1,BUY,ENRUS
 Account Name,Action,Ticker
-Demo_1,SELL,AIRFR
+Demo_1,Nix machen,TSLA
 Account Name,Action,Ticker
-Demo_1,SELL,CAT
-Account Name,Action,Ticker
-Demo_1,BUY,BYND
-Account Name,Action,Ticker
-Demo_1,SELL,ARKK
-Account Name,Action,Ticker
-Demo_1,SELL,TEAM
-Account Name,Action,Ticker
-Demo_1,BUY,ADSGN
-Account Name,Action,Ticker
-Demo_1,BUY,CTLT
-Account Name,Action,Ticker
-Demo_1,BUY,GOOGL
-Account Name,Action,Ticker
-Demo_1,BUY,V
-Account Name,Action,Ticker
-Demo_1,SELL,NVDA
-Account Name,Action,Ticker
-Demo_1,BUY,AAPL
-Account Name,Action,Ticker
-Demo_1,SELL,XRPUSD
-Account Name,Action,Ticker
-Demo_1,SELL,ETHUSD
-Account Name,Action,Ticker
-Demo_1,SELL,BTCUSD
-Account Name,Action,Ticker
-Demo_1,BUY,PYPL
+Demo_1,Nix machen,PYPL
 Account Name,Action,Ticker
 Demo_1,BUY,ENRUS
 Account Name,Action,Ticker
-Demo_1,SELL,AIRFR
+Demo_1,Nix machen,TSLA
 Account Name,Action,Ticker
-Demo_1,SELL,CAT
-Account Name,Action,Ticker
-Demo_1,BUY,BYND
-Account Name,Action,Ticker
-Demo_1,SELL,ARKK
-Account Name,Action,Ticker
-Demo_1,SELL,TEAM
-Account Name,Action,Ticker
-Demo_1,SELL,XRPUSD
-Account Name,Action,Ticker
-Demo_1,SELL,XRPUSD
+Demo_1,Nix machen,PYPL

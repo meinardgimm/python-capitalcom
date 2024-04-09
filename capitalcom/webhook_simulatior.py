@@ -29,7 +29,7 @@ def calc_parameters(event, positions_dict):
   subaccounts = cl.all_accounts()
   data = json.loads(subaccounts) 
   subaccount_names = [account["accountName"] for account in data["accounts"]]
-  subaccount_balance = [account["balance"]["balance"] for account in data["accounts"]]
+  subaccount_balance = [account["balance"]["available"] for account in data["accounts"]]
   for index in range(0,len(subaccount_names)):
      if subaccount_names[index] == event['Account']:
         balance_index = index
@@ -47,8 +47,8 @@ def calc_parameters(event, positions_dict):
   epic = event['ticker']
   if event['marketside'] == 'BUY' or event['marketside'] == 'SELL': 
     # remains to be fixed! ALso the closing Befehl
-    cl.place_the_position(direction, epic, round(size), round(stop_level,4))
-    cl.place_the_order(direction, epic, round(size),level =event['high'],  type = "LIMIT", stop_level = round(stop_level,4))
+    cl.place_the_position(direction, epic, round(size), stop_level = round(stop_level,4))
+    #cl.place_the_order(direction, epic, round(size),level =event['high'],  type = "LIMIT", stop_level = round(stop_level,4))
   if event['marketside'] == 'CLOSE':
     for index in range(0, len(positions_dict[2])):
       if positions_dict[0][index] == epic:

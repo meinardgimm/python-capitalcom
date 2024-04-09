@@ -41,11 +41,12 @@ class Scripts():
         else:
             return "HOLD"  # No crossover, hold position
         
-    def AllAlerts(prices, positions):
+    def AllAlerts(prices, positions, balance):
         if positions != []:
             for index in range(0,len(positions[0])):
                 if prices['ticker'] == positions[0][index]:
                     open_positions = positions[1][index]
+                    break
                 else:
                     open_positions = 'NONE'
         else:
@@ -62,10 +63,12 @@ class Scripts():
             return 'CLOSE'
         elif slope1 > 0 and open_positions == 'SELL':
             return 'CLOSE'
-        elif slope1 > 0 and slope2 > 0 and slope3 > 0 and open_positions == 'NONE':
+        elif slope1 > 0 and slope2 > 0 and slope3 > 0 and open_positions == 'NONE' and balance > 5:
             return 'BUY'
-        elif slope1 < 0 and slope2 < 0 and slope3 < 0 and open_positions == 'NONE':
+        elif slope1 < 0 and slope2 < 0 and slope3 < 0 and open_positions == 'NONE' and balance > 5:
             return 'SELL'
+        else: 
+            return 'Nix machen'
 
 def pine_wma(source, length):
 # so far just gives out one single value. Need to make it a list.
