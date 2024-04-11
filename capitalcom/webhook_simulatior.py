@@ -16,7 +16,8 @@ def webhook(ticker,marketside,prices,account, positions_dict):
     "Account": account
   }
   #lambda_handler(event)
-  calc_parameters(event, positions_dict)
+  status = calc_parameters(event, positions_dict)
+  return status
 
 def calc_parameters(event, positions_dict):
   #Clienten und Abfrage aktualisieren | nicht sicher ob notwendig :/
@@ -57,9 +58,9 @@ def calc_parameters(event, positions_dict):
       return 'not successful'
     #cl.place_the_order(direction, epic, round(size),level =event['high'],  type = "LIMIT", stop_level = round(stop_level,4))
   if event['marketside'] == 'CLOSE':
-    for index in range(0, len(positions_dict[2])):
-      if positions_dict[0][index] == epic:
-        deal_reference = cl.close_position(positions_dict[2][index])
+    for index in range(0, len(positions_dict['Demo_1'][0])):
+      if positions_dict['Demo_1'][0][index] == epic:
+        deal_reference = cl.close_position(positions_dict['Demo_1'][2][index])
         deal_reference = json.loads(deal_reference)
         deal_success = cl.position_order_confirmation(deal_reference["dealReference"])
         deal_success = json.loads(deal_success)

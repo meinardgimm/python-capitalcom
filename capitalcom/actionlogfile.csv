@@ -1471,3 +1471,11 @@ Account Name,Action,Ticker
 Demo_1,Nix machen,TSLA
 Account Name,Action,Ticker
 Demo_1,Nix machen,PYPL
+Account Name,Action,Ticker
+Demo_1,BUY,ADSGN
+Account Name,Action,Ticker
+Demo_1,BUY,V
+Account Name,Action,Ticker
+Demo_1,SELL,TSLA
+Account Name,Action,Ticker
+Demo_1,SELL,PYPL
