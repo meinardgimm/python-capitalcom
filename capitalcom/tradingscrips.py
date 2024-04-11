@@ -1,46 +1,11 @@
 import statistics
 import backtrader as bt
 
+# include cases for 
+# return 'CLOSE' | return 'BUY' | return 'SELL' | return 'nix machen'
+
 class Scripts():
-
-    def simpletest(prices, positions):
-        # initializing 'open_positions' as 'SELL', 'BUY' an 'NONE' if no trade is open
-        for index in range(0,len(positions[0])):
-            if prices['ticker'] == positions[0][index]:
-                open_positions = positions[1][index]
-            else:
-                open_positions = 'NONE'
-
-        avg_price = statistics.mean(prices['low'])
-        prices = prices['low']
-        above_avg_count = sum(1 for price in prices if price > avg_price)
-        below_avg_count = len(prices) - above_avg_count
-
-        if above_avg_count > below_avg_count:
-            return "HOLD"
-        else:
-            return "HOLD"
-        
-
-    def GPT_intuitive(prices, positions):
-        # Check if we have enough data points
-        if len(prices) < 100:
-            return "HOLD"  # Not enough data for a decision, hold position
-
-        # Calculate the short-term (fast) moving average (e.g., 20 minutes)
-        short_ma = sum(prices[-20:]) / 20
-
-        # Calculate the long-term (slow) moving average (e.g., 50 minutes)
-        long_ma = sum(prices[-50:]) / 50
-
-        # Generate trading signals based on the moving average crossover
-        if short_ma > long_ma:
-            return "BUY"  # Short-term MA crosses above long-term MA, generate a buy signal
-        elif short_ma < long_ma:
-            return "SELL"  # Short-term MA crosses below long-term MA, generate a sell signal
-        else:
-            return "HOLD"  # No crossover, hold position
-        
+     
     def AllAlerts(prices, positions, balance):
         if positions != []:
             for index in range(0,len(positions[0])):
@@ -56,9 +21,9 @@ class Scripts():
         slope_period1 = 1
         slope_period2 = 3
         slope_period3 = 4
-        slope1 = (ma[0] - ma[-slope_period1]) / slope_period1
-        slope2 = (ma[0] - ma[-slope_period2]) / slope_period2
-        slope3 = (ma[0] - ma[-slope_period3]) / slope_period3
+        slope1 = (ma[-1] - ma[-slope_period1]) / slope_period1 # these lines I 'fixed' from ma[0]
+        slope2 = (ma[-1] - ma[-slope_period2]) / slope_period2
+        slope3 = (ma[-1] - ma[-slope_period3]) / slope_period3
         if slope1 < 0 and open_positions == 'BUY':
             return 'CLOSE'
         elif slope1 > 0 and open_positions == 'SELL':
@@ -81,3 +46,29 @@ def pine_wma(source, length):
         total_sum += source[i] * weight
         wma.append(total_sum / norm)
     return wma
+
+def GPT_intuitive(prices, positions, balance):
+    if positions != []:
+        for index in range(0,len(positions[0])):
+            if prices['ticker'] == positions[0][index]:
+                open_positions = positions[1][index]
+                break
+            else:
+                open_positions = 'NONE'
+    else:
+        open_positions = 'NONE'
+    # Calculate the short-term (fast) moving average (e.g., 20 minutes)
+    short_ma = sum(prices[-5:]) / 5
+    # Calculate the long-term (slow) moving average (e.g., 50 minutes)
+    long_ma = sum(prices[-10:]) / 10
+    # Generate trading signals based on the moving average crossover
+    if short_ma > long_ma and open_positions == 'NONE':
+        return "BUY"  # Short-term MA crosses above long-term MA, generate a buy signal
+    elif short_ma < long_ma and open_positions == 'NONE':
+        return "SELL"  # Short-term MA crosses below long-term MA, generate a sell signal
+    elif short_ma > long_ma and open_positions == 'SELL':
+        return 'CLOSE'
+    elif short_ma < long_ma and open_positions == 'BUY':
+        return 'CLOSE'
+    else:
+        return "Nix machen"  # No crossover, hold position
