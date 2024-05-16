@@ -1,3 +1,5 @@
+394bf5f2451215c3ca34e701a9c89587da5118f39d5da6ac
+
 Welcome to unofficial Python wrapper for the Capital.com exchange REST API v1. Use at your own risk.
 
 The Capital.com API allows direct access to the latest version of our trading engine.
